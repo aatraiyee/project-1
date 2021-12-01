@@ -1,0 +1,118 @@
+<html>
+<head>
+<title> Login Form </title>
+
+<style>
+h2{
+background-color:CCEEFF ;
+padding: 30px 35px;
+margin: -10px -50px;
+text-align: centre;
+border-radius: 0 0 0 0;
+}
+hr{
+margin: 10px 50px;
+border: 0;
+border-top: 1px solid #ccc;
+margin-bottom: 40px;
+}
+div.container{
+width:500px;
+padding: 10px 50px 25px;
+font-family: Courier New;
+font-size: 40px;
+float: centre;
+margin-top: 50px;
+}
+input[type=text], input[type=password]{
+width: 100%;
+height: 50px;
+padding: 5px;
+margin-bottom: 25px;
+margin-top: 5px;
+border: 2px solid #ccc;
+color: #4f4f4f;
+font-size: 20px;
+border-radius: 5px;
+}
+label{
+color: #black;
+text-shadow: 0 1px 0 #fff;
+font-size: 32px;
+font-weight: bold;
+}
+centre{
+font-size: 32px;
+}
+.note{
+color.red;
+}
+.valid{
+color.green;
+}
+.black{
+text-decoration: none;
+border: 1px solid rgb(0, 143, 255);
+background-color: rgb(0, 214, 255);
+padding: 3px 20px;
+border-radius: 2px;
+color: black;
+}
+input[type=button]{
+font-size: 20px;
+background: linear gradient(#ffbc00 5%, #ffdd7f 100%);
+border: 1px solid #e5a900;
+font-weight: bold;
+cursor: pointer;
+width: 100%
+border-radius: 5px;
+padding: 10px 0;
+outline: none;
+}
+input[type=button]{
+background: linear-gradient(#white 5%, #black 100%);
+}
+</style>
+<script>
+var attempt= 5;
+function validate()
+{
+var username= document.getElementById("username").value;
+var password= document.getElementById("password").value;
+if(username=="abcd" && password=="123")
+{
+alert("login successfully");
+window.location="file:///C:/Users/Aatraiyee%20Dixit/OneDrive/Desktop/satic%20pages/home%20page.html";
+return false;
+}
+else
+{
+attempt--;
+alert("Attempt left " + attempt );
+if(attempt==0)
+{
+document.getElementById("username").disabled= true;
+document.getElementById("password").disabled= true;
+document.getElementById("submit").disable= true;
+return false;
+}
+}
+}
+</script>
+</head>
+<body bgcolor="#CCEEFF">
+
+<div class="container">
+<div class="main">
+<h2>LOGIN FORM</h2>
+<form id="form_id" method="post" name="form">
+<label> User Name: </label>
+<input type= "text" name="username" id="username"/>
+<label> Password </label>
+<input type="password" name="password" id="password"/>
+<input type="button" value="login" id="submit" onclick="validate()"/>
+</form>
+</div>
+</div>
+</body>
+</html>

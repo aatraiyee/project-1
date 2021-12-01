@@ -1,0 +1,193 @@
+<html>
+
+<head>  
+<meta charset="UTF-20">
+    <meta name="viewport" content="width=device-width, initial-scale=6.0">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title> html </title>
+</head>
+
+
+<body>
+ 
+<table id="header" border="5" width="100%" cellpadding="0" cellspacing="0" bgcolor="#000080">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            <font face="arial" color="#808080" size="10">
+                                <span class="fa fa-user-" aria-hidden="true"></span>
+                                NOTES POINT
+                            </font>
+                        </td>
+                        <td >
+                            &nbsp;
+                        </td>
+                        <td>
+                                <a href="file:///C:/Users/Aatraiyee%20Dixit/OneDrive/Desktop/satic%20pages/home.html"><font face="arial" color="#ffffff" size="4">Home</font></a>
+                        </td>
+                        
+                        <td>
+                            <a href="file:///C:/Users/Aatraiyee%20Dixit/OneDrive/Desktop/satic%20pages/c.html"><font face="arial" color="#ffffff" size="4"> C </font></a>
+                        </td>
+                        <td>
+                            <a href="file:///C:/Users/Aatraiyee%20Dixit/OneDrive/Desktop/satic%20pages/c++.html"><font face="arial" color="#ffffff" size="4"> C++ </font></a>
+                        </td>
+                        
+                        <td>
+                            <a href="file:///C:/Users/Aatraiyee%20Dixit/OneDrive/Desktop/satic%20pages/ds.html"><font face="arial" color="#ffffff" size="4"> DS </font></a>
+                        </td>
+                        <td>
+                            <a href="file:///C:/Users/Aatraiyee%20Dixit/OneDrive/Desktop/satic%20pages/dbms.html"><font face="arial" color="#ffffff" size="4"> DBMS </font></a>
+                        </td>
+                        <td>
+                            <a href="file:///C:/Users/Aatraiyee%20Dixit/OneDrive/Desktop/satic%20pages/html.html"><font face="arial" color="#ffffff" size="4"> HTML </font></a>
+                        </td>
+                        >
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+
+ <table id="HTML " border="5" width="100%" cellpadding="0" cellspacing="0" bgcolor="	#C0C0C0">
+        <tr>
+            <td>
+                <table border="0" width="100%" cellpadding="50" cellspacing="0" align="center">
+                    <tr>
+                        <td height="360" align="center" valign="middle" colspan="3">
+                                <font face="arial" color="#000000" size="14">
+                                     HTML 
+                                </font>
+                                <hr width="70" color="#000000">
+                        
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="	#000080">
+                                <h2 align="center">THEORY TUTORIAL	</h2>
+                            </font>
+<ul>
+<li>
+<a href="https://www.javatpoint.com/html-tutorial"> Link to the javatpoint tutorial</a>
+<font face="arial" color="#add8e6">
+</li>
+<li>
+<a href="https://www.w3schools.com/html/"> Link to the w3school tutorial</a>
+<font face="arial" color="#add8e6">
+</li>
+<li>
+<a href="https://www.tutorialspoint.com/html/index.htm"> Link to the tutorialspoint tutorial</a>
+<font face="arial" color="#add8e6">
+</li>
+                            <font face="arial" color="	#add8e6e">
+                                </font>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="	#000080">
+                                <h2 align="center">BOOKS</h2>
+                            </font>
+                            <font face="arial" color="	#add8e6">
+                                 </font>
+<ul>
+<li>
+<a href="https://freefrontend.com/html-css-books/"> Book</a>
+<font face="arial" color="#add8e6">
+</li>
+                        </td>
+                        <td width="33%" valign="top">
+                            <font face="arial" color="#000080">
+                                <h2 align="center">YOUTUBE TUTORIAL</h2>
+                            </font>
+                            <font face="arial" color="	#add8e6">
+                                </font>
+<ul>
+<li>
+<a href="https://www.youtube.com/watch?v=pQN-pnXPaVg"> English Tutorial</a>
+<font face="arial" color="#add8e6">
+</li>
+<li>
+<a href="https://www.youtube.com/watch?v=BsDoLVMnmZs/"> Hindi Tutorial</a>
+<font face="arial" color="black">
+</li>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+<td>
+                    <img src="html.jpg"  size="fit to screen" height="600"  align="centre'>
+</td>
+    </table>
+
+ <table id="header" border="5" width="100%" cellpadding="0" cellspacing="0" bgcolor="navyblue">
+        <tr>
+            <td>
+                <table border="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                   
+                    <tr>
+                        <td rowspan="2">
+                            <font face="arial" color="#ffffff" size="5">
+                                <span class="fa fa-arrow-circle-up" aria-hidden="true"></span>
+                             <a href="#header">
+                                <font face="arial" color="#ffffff" size="5">
+                                    Top
+                                </font>
+                                
+                            </a>
+                            </font>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="navy blue" size="5">
+                                <span class="fa fa-youtube-square" aria-hidden="true"></span>
+                               <a href="https://www.youtube.com/results?search_query=html"> YouTube </a>
+                            </font>
+         
+                            
+                        </td>
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-rss-square" aria-hidden="true"></span>
+                                Blog
+                            </font>
+                            
+                        </td>
+                        
+                        <td width="25%" valign="top">
+                            <font face="arial" color="#f3971b" size="5">
+                                <span class="fa fa-globe" aria-hidden="true"></span>
+                               <a href="https://www.w3schools.com/html/html_examples.asp"> Programs </a>
+                            </font>
+                            
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3">
+                            &nbsp;
+                        </td>
+                    </tr>
+                </table>
+            </td>
+
+        </tr>
+
+
+    </table>
+
+</body>
+</html>
